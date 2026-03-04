@@ -49,7 +49,7 @@ const displayWord = (words) => {
             <div>
                 <p class="text-2xl font-semibold font-bangla">"${word.meaning ? word.meaning : " অর্থ পাওয়া জাইনি"} / ${word.pronunciation ? word.pronunciatiion : "Pronunciation পাওয়া জাইনি"}"</p>
                 <div class="flex justify-between items-center">
-                    <button class="btn bg-[#1A91FF20] hover:bg-[#1A91FF80]" ><i class="fa-solid fa-circle-info"></i></button>
+                    <button onclick="my_modal_5.showModal()" class="btn bg-[#1A91FF20] hover:bg-[#1A91FF80]" ><i class="fa-solid fa-circle-info"></i></button>
 
                     <button class="btn bg-[#1A91FF20] hover:bg-[#1A91FF90]"><i class="fa-solid fa-volume-high"></i></button>
                 </div>
